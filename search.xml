@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title>考试注意事项总结</title>
+      <link href="/myblog/2023/10/15/%E8%80%83%E8%AF%95%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9%E6%80%BB%E7%BB%93/"/>
+      <url>/myblog/2023/10/15/%E8%80%83%E8%AF%95%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9%E6%80%BB%E7%BB%93/</url>
+      
+        <content type="html"><![CDATA[<h2 id="一，前言"><a href="#一，前言" class="headerlink" title="一，前言"></a>一，前言</h2><p>由于最近备战CSP-J而集训，发现了一些实机考试时需要注意的一些事项，希望可以警醒自己同时不要让其他人掉坑。</p><h2 id="二，调整"><a href="#二，调整" class="headerlink" title="二，调整"></a>二，调整</h2><ol><li><p>调整自己的心态，不因之前某次模拟考失利或失误而有一种自暴自弃亦或是感觉自己不行的心理，要知道，模拟就是希望找到自己的不足，<strong>仅此而已</strong>。</p></li><li><p>调整自己的状态，提前在试机时适应键盘感觉，<strong>有问题及时和监考人员反应</strong>，要知道，监考人员是让你正常发挥的保证，而<strong>不是你的障碍</strong>。</p></li></ol><h2 id="三，注意"><a href="#三，注意" class="headerlink" title="三，注意"></a>三，注意</h2><ol><li><p>注意电脑有无问题。</p></li><li><p>注意自己的文件夹有无错误。</p></li><li><p>注意c++，头文件是否齐全（不必多，不<strong>能</strong>少）。</p></li><li><p>一定不能在考号文件夹中编译，<strong>一定不能！！！</strong>（不然运行后一直在后台运行删不掉，会爆零）</p></li></ol><p>注：若出现此类情况可以用以下方式处理：</p><p>（1）尽快保存<strong>最新版本的程序</strong>并在他处重建一个新的文件夹进行提交。</p><p>（2）若情况1不行的话在<strong>得到允许的情况下</strong>可以用任务管理器强行断掉运行进程。</p><ol start="5"><li><p><strong>freopen(…)一定不能忘，考试结束前5分钟不要干别的，就只需要且只能去检查它，fclose(…)可以忘，但它不行。</strong></p></li><li><p>不开 <code>long long</code> 见祖宗。<del>（经验之谈）</del></p></li><li><p>在交之前将显示文件后缀打开，千万不要将 “–.cpp” 交成 “–.cpp.cpp” 。</p></li></ol><p>注：千万千万不要交成“.exe”结尾的运行文件，交错就连哭的地方都没了。</p><h2 id="四，总结"><a href="#四，总结" class="headerlink" title="四，总结"></a>四，总结</h2><ol><li><p>不要自弃，相信自己的实力，不然你是如何走到现在的？对吧。</p></li><li><p>细心，细心，还是细心，只要正常发挥即可无悔于我，无悔于青春。</p></li><li><p>心态好， <del>（我不会你也别想会）</del> 不会时只要暴力，相信自己的经验，和垒码的直觉。</p></li><li><p><strong>不要想也不要去做出任何形式的作弊。</strong> 一旦出现类似情况，轻者长期禁赛，重者代表的学校上下三届禁赛三年，断了全校OI的路。</p></li></ol><h3 id="五，点个关注不迷路"><a href="#五，点个关注不迷路" class="headerlink" title="五，点个关注不迷路"></a>五，点个关注不迷路</h3><p><a href="https://www.luogu.com.cn/user/528013#main">作者主页</a></p><h1 id="致我们奋斗的青春"><a href="#致我们奋斗的青春" class="headerlink" title="致我们奋斗的青春"></a>致我们奋斗的青春</h1>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> OI生活 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>游览器推荐</title>
+      <link href="/myblog/2023/10/15/%E6%B8%B8%E8%A7%88%E5%99%A8%E6%8E%A8%E8%8D%90/"/>
+      <url>/myblog/2023/10/15/%E6%B8%B8%E8%A7%88%E5%99%A8%E6%8E%A8%E8%8D%90/</url>
+      
+        <content type="html"><![CDATA[<h2 id="游览器推荐"><a href="#游览器推荐" class="headerlink" title="游览器推荐"></a>游览器推荐</h2><h3 id="由于电脑沾的比较多，所用的软件也多，原来的不知道用什么游览器现在看来也迎刃而解了。"><a href="#由于电脑沾的比较多，所用的软件也多，原来的不知道用什么游览器现在看来也迎刃而解了。" class="headerlink" title="由于电脑沾的比较多，所用的软件也多，原来的不知道用什么游览器现在看来也迎刃而解了。"></a>由于电脑沾的比较多，所用的软件也多，原来的不知道用什么游览器现在看来也迎刃而解了。</h3><p>我便来给大家推荐一些游览器，以防不知道用什么好。</p><h2 id="NO-1-微软-Microsoft-Edge"><a href="#NO-1-微软-Microsoft-Edge" class="headerlink" title="NO.1 微软 Microsoft Edge"></a>NO.1 微软 Microsoft Edge</h2><p>简称“ED游览器”。</p><h3 id="适用系统："><a href="#适用系统：" class="headerlink" title="适用系统："></a>适用系统：</h3><p>win7/win10（其他的没试）</p><p>由于<strong>win7暂停服务</strong>，所以不再更新，但仍可以使用。</p><h3 id="优点："><a href="#优点：" class="headerlink" title="优点："></a>优点：</h3><ol><li><p><strong>搜索很全</strong>，网址栏也可以用bing搜，很方便。</p></li><li><p>可以登微软账户（邮箱就行），可以<strong>同步用户设置和游览书签</strong>等。</p></li><li><p>界面简洁，无弹窗广告和游览广告。</p></li><li><p>下载有官方，防捆绑。</p></li><li><p>自带的<strong>翻译</strong>很快，很准 <del>，很狠</del> 。</p></li></ol><h3 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h3><p>在有的机房连接不到微软，因为网络堪忧。</p><h2 id="NO-2-Google-Chrome"><a href="#NO-2-Google-Chrome" class="headerlink" title="NO.2 Google Chrome"></a>NO.2 Google Chrome</h2><p>又叫“谷歌游览器”。</p><h3 id="适用系统"><a href="#适用系统" class="headerlink" title="适用系统"></a>适用系统</h3><p>win7/win10（其他的没试）</p><p>正在持续更新。</p><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ol><li><p>一直在持续更新。</p></li><li><p>无捆绑，弹窗，广告。</p></li><li><p>加载很快。</p></li><li><p><strong>兼容绝大部分网站</strong>。</p></li></ol><h3 id="缺点-1"><a href="#缺点-1" class="headerlink" title="缺点"></a>缺点</h3><p>同 ED游览器</p><h2 id="NO-3-Firefox"><a href="#NO-3-Firefox" class="headerlink" title="NO.3 Firefox"></a>NO.3 Firefox</h2><p>中文叫“火狐游览器”</p><p>这是我<strong>最推荐</strong>在机房使用的游览器</p><h3 id="适用系统-1"><a href="#适用系统-1" class="headerlink" title="适用系统"></a>适用系统</h3><p>win7/win10（其他的没试）</p><h3 id="优点-1"><a href="#优点-1" class="headerlink" title="优点"></a>优点</h3><ol><li><p>在机房连不上bing时会用baidu。<del>（除非你非选）</del></p></li><li><p>下载快，最多两分钟，无捆绑。</p></li><li><p><strong>无弹窗，无广告。</strong></p></li><li><p>使用方便，界面整洁，<strong>可以自定义</strong>。</p></li><li><p><strong>支持众多插件</strong>。</p></li></ol><h3 id="缺点-2"><a href="#缺点-2" class="headerlink" title="缺点"></a>缺点</h3><p>在某些性能方面不如 ED游览器 和 火狐游览器。</p><h2 id="NO-4-360游览器"><a href="#NO-4-360游览器" class="headerlink" title="NO.4 360游览器"></a>NO.4 360游览器</h2><p>可以说成“360全家桶”</p><h3 id="适用系统-2"><a href="#适用系统-2" class="headerlink" title="适用系统"></a>适用系统</h3><p>win7/win10（你懂的）</p><h3 id="优点-2"><a href="#优点-2" class="headerlink" title="优点"></a>优点</h3><ol><li><p><strong>全中文</strong>游览器。（包括官方）</p></li><li><p>搜索，游览功能强大。</p></li><li><p>使用方便。</p></li></ol><h3 id="缺点-3"><a href="#缺点-3" class="headerlink" title="缺点"></a>缺点</h3><p>会自带“360安全卫士”，“360软件管家”，“360小程序中心”，“360游戏管家”，“鲁大师”等一系列<strong>捆绑软件</strong>。</p><h2 id="NO-5-flash中心"><a href="#NO-5-flash中心" class="headerlink" title="NO.5 flash中心"></a>NO.5 flash中心</h2><p>其实它并<strong>不是一个游览器</strong>，却有游览器的功能</p><h3 id="适用-优点"><a href="#适用-优点" class="headerlink" title="适用 优点"></a><del>适用</del> 优点</h3><ol><li><p>可以游览所有带<strong>flash插件</strong>的网页，这是其他游览器做不到的。</p></li><li><p>玩游戏方便。</p></li></ol><h3 id="缺点-4"><a href="#缺点-4" class="headerlink" title="缺点"></a>缺点</h3><p>缺少大部分游览器所需的东西，如插件。</p><p>毕竟它并不是一个正规游览器，而是flash下载中心。</p><h5 id="好了，下面就没了。"><a href="#好了，下面就没了。" class="headerlink" title="好了，下面就没了。"></a>好了，下面就没了。</h5><h4 id="点个关注不迷路"><a href="#点个关注不迷路" class="headerlink" title="点个关注不迷路"></a>点个关注不迷路</h4><p><a href="https://www.luogu.com.cn/user/528013">作者主页</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 实用技巧 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>STL容器之queue</title>
       <link href="/myblog/2023/10/15/STL%E5%AE%B9%E5%99%A8%E4%B9%8Bqueue/"/>
       <url>/myblog/2023/10/15/STL%E5%AE%B9%E5%99%A8%E4%B9%8Bqueue/</url>

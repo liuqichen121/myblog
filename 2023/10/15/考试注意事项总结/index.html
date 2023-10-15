@@ -16,24 +16,22 @@
   <meta name="author" content="liuqichen121">
   <meta name="keywords" content="OI 信息 c++ 编程">
   
-    <meta name="description" content="前言继 vector 容器之后的 队列 queue。 STL 容器只有一个是不够的，现在便介绍一下关于 STL 中的 queue 容器 queue队列理解人如其名，这个 queue 容器也像它的名字一样在实际模型上是一个队列。 进入它的元素都会遵循一个原则： 先进先出 每个插入的元素都会到队列的末尾，依次返回的则是队伍开头元素。 所以它的实际模型就类似一个队伍在排队，每个进入队伍的最后，在队伍开头">
+    <meta name="description" content="一，前言由于最近备战CSP-J而集训，发现了一些实机考试时需要注意的一些事项，希望可以警醒自己同时不要让其他人掉坑。 二，调整 调整自己的心态，不因之前某次模拟考失利或失误而有一种自暴自弃亦或是感觉自己不行的心理，要知道，模拟就是希望找到自己的不足，仅此而已。  调整自己的状态，提前在试机时适应键盘感觉，有问题及时和监考人员反应，要知道，监考人员是让你正常发挥的保证，而不是你的障碍。   三，注意">
 <meta property="og:type" content="article">
-<meta property="og:title" content="STL容器之queue">
-<meta property="og:url" content="https://liuqichen121.github.io/myblog/2023/10/15/STL%E5%AE%B9%E5%99%A8%E4%B9%8Bqueue/index.html">
+<meta property="og:title" content="考试注意事项总结">
+<meta property="og:url" content="https://liuqichen121.github.io/myblog/2023/10/15/%E8%80%83%E8%AF%95%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9%E6%80%BB%E7%BB%93/index.html">
 <meta property="og:site_name" content="liuqichen121の小屋">
-<meta property="og:description" content="前言继 vector 容器之后的 队列 queue。 STL 容器只有一个是不够的，现在便介绍一下关于 STL 中的 queue 容器 queue队列理解人如其名，这个 queue 容器也像它的名字一样在实际模型上是一个队列。 进入它的元素都会遵循一个原则： 先进先出 每个插入的元素都会到队列的末尾，依次返回的则是队伍开头元素。 所以它的实际模型就类似一个队伍在排队，每个进入队伍的最后，在队伍开头">
+<meta property="og:description" content="一，前言由于最近备战CSP-J而集训，发现了一些实机考试时需要注意的一些事项，希望可以警醒自己同时不要让其他人掉坑。 二，调整 调整自己的心态，不因之前某次模拟考失利或失误而有一种自暴自弃亦或是感觉自己不行的心理，要知道，模拟就是希望找到自己的不足，仅此而已。  调整自己的状态，提前在试机时适应键盘感觉，有问题及时和监考人员反应，要知道，监考人员是让你正常发挥的保证，而不是你的障碍。   三，注意">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://cdn.luogu.com.cn/upload/image_hosting/f05x7bni.png?x-oss-process=image/resize,m_lfit,h_170,w_225">
-<meta property="article:published_time" content="2023-10-15T10:04:38.000Z">
-<meta property="article:modified_time" content="2023-10-15T10:04:38.937Z">
+<meta property="article:published_time" content="2023-10-15T11:49:16.588Z">
+<meta property="article:modified_time" content="2023-10-15T11:49:49.257Z">
 <meta property="article:author" content="liuqichen121">
-<meta property="article:tag" content="STL容器">
+<meta property="article:tag" content="OI生活">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://cdn.luogu.com.cn/upload/image_hosting/f05x7bni.png?x-oss-process=image/resize,m_lfit,h_170,w_225">
   
   
   
-  <title>STL容器之queue - liuqichen121の小屋</title>
+  <title>考试注意事项总结 - liuqichen121の小屋</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -201,7 +199,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="STL容器之queue"></span>
+            <span id="subtitle" data-typed-text="考试注意事项总结"></span>
           
         </div>
 
@@ -212,7 +210,7 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-10-15 18:04" pubdate>
+        <time datetime="2023-10-15 19:49" pubdate>
           2023年10月15日 晚上
         </time>
       </span>
@@ -224,7 +222,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.5k 字
+          702 字
         
       </span>
     
@@ -235,7 +233,7 @@
         
         
         
-          13 分钟
+          6 分钟
         
       </span>
     
@@ -272,32 +270,52 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">STL容器之queue</h1>
+            <h1 id="seo-header">考试注意事项总结</h1>
             
             
               <div class="markdown-body">
                 
-                <h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>继 vector 容器之后的 队列 queue。</p>
-<p>STL 容器只有一个是不够的，现在便介绍一下关于 STL 中的 queue 容器</p>
-<h2 id="queue队列"><a href="#queue队列" class="headerlink" title="queue队列"></a>queue队列</h2><h3 id="理解"><a href="#理解" class="headerlink" title="理解"></a>理解</h3><p>人如其名，这个 queue 容器也像它的名字一样在实际模型上是一个队列。</p>
-<h4 id="进入它的元素都会遵循一个原则：-先进先出"><a href="#进入它的元素都会遵循一个原则：-先进先出" class="headerlink" title="进入它的元素都会遵循一个原则： 先进先出"></a>进入它的元素都会遵循一个原则： 先进先出</h4><p><img src="https://cdn.luogu.com.cn/upload/image_hosting/f05x7bni.png?x-oss-process=image/resize,m_lfit,h_170,w_225" srcset="/myblog/img/loading.gif" lazyload></p>
-<p>每个插入的元素都会到队列的末尾，依次返回的则是队伍开头元素。</p>
-<p>所以它的实际模型就类似一个队伍在排队，每个进入队伍的最后，在队伍开头被访问后离开。</p>
-<p>队首即队列的第一项，队尾即队列的最后一项。</p>
-<p>（值得注意的是：队列的中间元素<del>应该</del>是不能访问的）</p>
-<h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>举个实际的例子如下</p>
-<figure class="highlight cpp"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span><span class="hljs-string">&lt;stdio.h&gt;</span></span><br><br><span class="hljs-comment">//队列的头文件 </span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span><span class="hljs-string">&lt;queue&gt;</span></span><br><br><span class="hljs-comment">//使用大部分STL容器需要定义命名空间</span><br><span class="hljs-comment">//queue便是其中之一 </span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><br><span class="hljs-comment">//queue&lt;数据类型&gt;队列名 </span><br>queue &lt;<span class="hljs-type">int</span>&gt; q;<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>{<br>	<br>	<span class="hljs-comment">//依次存入1 5 3 4 2 </span><br>	q.<span class="hljs-built_in">push</span>(<span class="hljs-number">1</span>);<br>	q.<span class="hljs-built_in">push</span>(<span class="hljs-number">5</span>);<br>	q.<span class="hljs-built_in">push</span>(<span class="hljs-number">3</span>);<br>	q.<span class="hljs-built_in">push</span>(<span class="hljs-number">4</span>);<br>	q.<span class="hljs-built_in">push</span>(<span class="hljs-number">2</span>);<br>	<br>	<span class="hljs-comment">//循环输出，直至队列为空 </span><br>	<span class="hljs-keyword">while</span>(!q.<span class="hljs-built_in">empty</span>()){<br>		<br>		<span class="hljs-comment">//输出位于队首的元素 </span><br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">"%d\n"</span>,q.<span class="hljs-built_in">front</span>());<br>		<br>		<span class="hljs-comment">//弹出队首元素 </span><br>		q.<span class="hljs-built_in">pop</span>();<br>		<br>	}<br>	<br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>} <br></code></pre></td></tr></tbody></table></figure>
-
-<h3 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h3><h3 id="1-push"><a href="#1-push" class="headerlink" title="1.push()"></a>1.push()</h3><h4 id="使用-push-函数可以在队列的末尾插入一个相应类型的元素。"><a href="#使用-push-函数可以在队列的末尾插入一个相应类型的元素。" class="headerlink" title="使用 push() 函数可以在队列的末尾插入一个相应类型的元素。"></a>使用 push() 函数可以在队列的末尾插入一个相应类型的元素。</h4><p> <em>所有的容器既然作为容器，那么它就必然要有相应的用途，如果连元素都放不了，那它算什么容器？</em> </p>
-<p>（几乎所有的 STL 容器 的元素插入都有一个函数，像 vector 的 push_back() 函数， stack 的 push() 函数）</p>
-<h3 id="2-pop"><a href="#2-pop" class="headerlink" title="2.pop()"></a>2.pop()</h3><h4 id="pop-函数-可以弹出位于队首的元素"><a href="#pop-函数-可以弹出位于队首的元素" class="headerlink" title="pop() 函数 可以弹出位于队首的元素"></a>pop() 函数 可以弹出位于队首的元素</h4><h3 id="3-front"><a href="#3-front" class="headerlink" title="3.front()"></a>3.front()</h3><h4 id="front-函数可以获取位于队首的元素。"><a href="#front-函数可以获取位于队首的元素。" class="headerlink" title="front() 函数可以获取位于队首的元素。"></a>front() 函数可以获取位于队首的元素。</h4><p>与 push() 函数 和 pop() 函数 共同属于使用 queue 队列的必要函数。</p>
-<p>在函数中还有一个可以获取队尾元素的函数： back()，但在一般情况下不会使用；</p>
-<p>不要与 back() 函数 记混，要记住队列是尾进头出。</p>
-<h3 id="4-empty"><a href="#4-empty" class="headerlink" title="4.empty()"></a>4.empty()</h3><h4 id="判断队列是否为空：为空时，返回-false（0）；否则返回-true（1）。"><a href="#判断队列是否为空：为空时，返回-false（0）；否则返回-true（1）。" class="headerlink" title="判断队列是否为空：为空时，返回 false（0）；否则返回 true（1）。"></a>判断队列是否为空：为空时，返回 false（0）；否则返回 true（1）。</h4><h3 id="5-size"><a href="#5-size" class="headerlink" title="5.size()"></a>5.size()</h3><h4 id="返回一个整数表示当前队列中元素的数量"><a href="#返回一个整数表示当前队列中元素的数量" class="headerlink" title="返回一个整数表示当前队列中元素的数量"></a>返回一个整数表示当前队列中元素的数量</h4><p>在一般情况下可用 empty() 替换，以达到输出队列中的全部元素</p>
-<h3 id="常用的函数大致就是这些了"><a href="#常用的函数大致就是这些了" class="headerlink" title="常用的函数大致就是这些了"></a>常用的函数大致就是这些了</h3><h4 id="现在回过头来看位于博文开头的那个代码想必你也能理解了"><a href="#现在回过头来看位于博文开头的那个代码想必你也能理解了" class="headerlink" title="现在回过头来看位于博文开头的那个代码想必你也能理解了"></a>现在回过头来看位于博文开头的那个代码想必你也能理解了</h4><figure class="highlight cpp"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span><span class="hljs-string">&lt;stdio.h&gt;</span></span><br><br><span class="hljs-comment">//队列的头文件 </span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span><span class="hljs-string">&lt;queue&gt;</span></span><br><br><span class="hljs-comment">//使用大部分STL容器需要定义命名空间</span><br><span class="hljs-comment">//queue便是其中之一 </span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><br><span class="hljs-comment">//queue&lt;数据类型&gt;队列名 </span><br>queue &lt;<span class="hljs-type">int</span>&gt; q;<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>{<br>	<br>	<span class="hljs-comment">//依次存入1 5 3 4 2 </span><br>	q.<span class="hljs-built_in">push</span>(<span class="hljs-number">1</span>);<br>	q.<span class="hljs-built_in">push</span>(<span class="hljs-number">5</span>);<br>	q.<span class="hljs-built_in">push</span>(<span class="hljs-number">3</span>);<br>	q.<span class="hljs-built_in">push</span>(<span class="hljs-number">4</span>);<br>	q.<span class="hljs-built_in">push</span>(<span class="hljs-number">2</span>);<br>	<br>	<span class="hljs-comment">//循环输出，直至队列为空 </span><br>   	<span class="hljs-comment">//可用(q.size())替换</span><br>	<span class="hljs-keyword">while</span>(!q.<span class="hljs-built_in">empty</span>()){<br>		<br>		<span class="hljs-comment">//输出位于队首的元素 </span><br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">"%d\n"</span>,q.<span class="hljs-built_in">front</span>());<br>		<br>		<span class="hljs-comment">//弹出队首元素 </span><br>		q.<span class="hljs-built_in">pop</span>();<br>		<br>	}<br>	<br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>} <br></code></pre></td></tr></tbody></table></figure>
-
-<p>这次的STL容器——queue队列就到这里了，要知道有一个特殊的队列叫优先队列，那就分开下次再讲吧。</p>
-<h3 id="CSP加油！！！"><a href="#CSP加油！！！" class="headerlink" title="CSP加油！！！"></a>CSP加油！！！</h3>
+                <h2 id="一，前言"><a href="#一，前言" class="headerlink" title="一，前言"></a>一，前言</h2><p>由于最近备战CSP-J而集训，发现了一些实机考试时需要注意的一些事项，希望可以警醒自己同时不要让其他人掉坑。</p>
+<h2 id="二，调整"><a href="#二，调整" class="headerlink" title="二，调整"></a>二，调整</h2><ol>
+<li><p>调整自己的心态，不因之前某次模拟考失利或失误而有一种自暴自弃亦或是感觉自己不行的心理，要知道，模拟就是希望找到自己的不足，<strong>仅此而已</strong>。</p>
+</li>
+<li><p>调整自己的状态，提前在试机时适应键盘感觉，<strong>有问题及时和监考人员反应</strong>，要知道，监考人员是让你正常发挥的保证，而<strong>不是你的障碍</strong>。</p>
+</li>
+</ol>
+<h2 id="三，注意"><a href="#三，注意" class="headerlink" title="三，注意"></a>三，注意</h2><ol>
+<li><p>注意电脑有无问题。</p>
+</li>
+<li><p>注意自己的文件夹有无错误。</p>
+</li>
+<li><p>注意c++，头文件是否齐全（不必多，不<strong>能</strong>少）。</p>
+</li>
+<li><p>一定不能在考号文件夹中编译，<strong>一定不能！！！</strong>（不然运行后一直在后台运行删不掉，会爆零）</p>
+</li>
+</ol>
+<p>注：若出现此类情况可以用以下方式处理：</p>
+<p>（1）尽快保存<strong>最新版本的程序</strong>并在他处重建一个新的文件夹进行提交。</p>
+<p>（2）若情况1不行的话在<strong>得到允许的情况下</strong>可以用任务管理器强行断掉运行进程。</p>
+<ol start="5">
+<li><p><strong>freopen(…)一定不能忘，考试结束前5分钟不要干别的，就只需要且只能去检查它，fclose(…)可以忘，但它不行。</strong></p>
+</li>
+<li><p>不开 <code>long long</code> 见祖宗。<del>（经验之谈）</del></p>
+</li>
+<li><p>在交之前将显示文件后缀打开，千万不要将 “–.cpp” 交成 “–.cpp.cpp” 。</p>
+</li>
+</ol>
+<p>注：千万千万不要交成“.exe”结尾的运行文件，交错就连哭的地方都没了。</p>
+<h2 id="四，总结"><a href="#四，总结" class="headerlink" title="四，总结"></a>四，总结</h2><ol>
+<li><p>不要自弃，相信自己的实力，不然你是如何走到现在的？对吧。</p>
+</li>
+<li><p>细心，细心，还是细心，只要正常发挥即可无悔于我，无悔于青春。</p>
+</li>
+<li><p>心态好， <del>（我不会你也别想会）</del> 不会时只要暴力，相信自己的经验，和垒码的直觉。</p>
+</li>
+<li><p><strong>不要想也不要去做出任何形式的作弊。</strong> 一旦出现类似情况，轻者长期禁赛，重者代表的学校上下三届禁赛三年，断了全校OI的路。</p>
+</li>
+</ol>
+<h3 id="五，点个关注不迷路"><a href="#五，点个关注不迷路" class="headerlink" title="五，点个关注不迷路"></a>五，点个关注不迷路</h3><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/user/528013#main">作者主页</a></p>
+<h1 id="致我们奋斗的青春"><a href="#致我们奋斗的青春" class="headerlink" title="致我们奋斗的青春"></a>致我们奋斗的青春</h1>
                 
               </div>
             
@@ -309,7 +327,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/myblog/tags/STL%E5%AE%B9%E5%99%A8/" class="print-no-link">#STL容器</a>
+        <a href="/myblog/tags/OI%E7%94%9F%E6%B4%BB/" class="print-no-link">#OI生活</a>
       
     </div>
   
@@ -321,8 +339,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>STL容器之queue</div>
-      <div>https://liuqichen121.github.io/myblog/2023/10/15/STL容器之queue/</div>
+      <div>考试注意事项总结</div>
+      <div>https://liuqichen121.github.io/myblog/2023/10/15/考试注意事项总结/</div>
     </div>
     <div class="license-meta">
       
@@ -366,18 +384,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/myblog/2023/10/15/%E6%B8%B8%E8%A7%88%E5%99%A8%E6%8E%A8%E8%8D%90/" title="游览器推荐">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">游览器推荐</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/myblog/2023/10/15/STL%E5%AE%B9%E5%99%A8%E4%B9%8Bvector/" title="STL容器之vector">
-                        <span class="hidden-mobile">STL容器之vector</span>
+                      <a href="/myblog/2023/10/15/%E6%B8%B8%E8%A7%88%E5%99%A8%E6%8E%A8%E8%8D%90/" title="游览器推荐">
+                        <span class="hidden-mobile">游览器推荐</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
